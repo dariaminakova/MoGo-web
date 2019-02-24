@@ -1,0 +1,48 @@
+.team-box{
+    position: relative;
+    width: 380px;
+    height: 100%;
+    margin: 0 30px;
+}
+
+.team-box:hover {
+    box-shadow:
+    1px 1px #95e1d3,
+    2px 2px #95e1d3,
+    3px 3px #95e1d3,
+    4px 4px #95e1d3,
+    5px 5px #95e1d3,
+    6px 6px #95e1d3,
+    7px 7px #95e1d3;
+  transform: translateX(-7px);
+  transform: translateY(-7px);
+  transition: 0.3s ease;
+}
+
+.hide-team{
+    position: absolute;
+    top:0;
+    width: 380px;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(255, 197, 6, 0.85) 0%, rgba(247, 108, 108, 0.85) 100%);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hide-team:hover{
+    transition: all ease 0.8s;
+    opacity: 0.8;
+}
+
+.team-info{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'B612', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+}

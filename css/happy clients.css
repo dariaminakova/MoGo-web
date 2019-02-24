@@ -1,0 +1,97 @@
+.start {
+    margin: 109px 0 16px 0;
+}
+
+.text-info-position {
+    margin: 0 25%;
+}
+
+.happy-clients {
+    float: left;
+    margin: 2% 4% 3% 10%;
+    width: 30%;
+}
+
+.foto {
+    float: left;
+    margin: 0 6% 0 0;
+}
+.foto:hover {
+    cursor: pointer;
+}
+
+.block {
+    margin: 0 auto;
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    border: none;
+    margin: 17px 0 24px;
+}
+
+.info {
+    float: none;
+    color: #999999;
+    font-family: Roboto cursive;
+    margin: 0 33%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 80%;
+}
+
+.profession {
+    font-family: "Roboto - Light Italic" cursive;
+    color: #333333;
+}
+
+.profession, .info, .name {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.name {
+    color: #333333;
+    font-family: Montserrat cursive;
+    text-transform: uppercase;
+}
+
+.content {
+    background-image: url("../images/2-layers.png");
+    height: 830px;
+    background-position: center;
+}
+
+.block1-none, .block2-none, .block3-none, .block4-none  {
+    margin: 18% 33%;
+    position: absolute;
+    border: 1px solid #f38181;
+    width: 500px;
+    height: 500px;
+    display: none;
+}
+
+.foto-none {
+    margin: 10% 40%;
+}
+
+.foto-none:hover {
+    cursor: pointer;
+}
+
+.happy-clients-info-none {
+    text-align: center;
+}
+
+.line-none {
+    margin: 15px auto;
+}
+
+.info-none {
+    margin: auto;
+}

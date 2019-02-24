@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.azur-section {
+    height: 270px;
+    background-color: #95e1d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.azur-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 77px;
+}
+
+.numbers {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}

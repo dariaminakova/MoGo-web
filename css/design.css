@@ -1,0 +1,28 @@
+.text-info-position {
+    margin: 45px 0 10px;
+}
+
+.design-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.design-img-bg {
+    background-image: url(../images/mountain_2.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 850px;
+}
+
+.tablet-img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.mobile-img {
+    position: absolute;
+    bottom: -91px;
+    right: 355px;
+}

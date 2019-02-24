@@ -1,0 +1,143 @@
+.Welcome {
+    background-image: linear-gradient(to top, rgba(255, 197, 6, 0.85) 0%, rgba(247, 108, 108, 0.85) 100%), url(../images/BG.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.logoAndMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    padding: 20px 0
+}
+
+.logo {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Menu {
+    display: flex;
+}
+
+.menuText {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+    padding: 0 0 5px 0;
+}
+
+.menuText:hover {
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+    padding: 0 0 1px;
+    
+}
+
+.mainTitel {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitel h4 {
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0; 
+}
+
+.mainTitel h2 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 140px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.whiteLine {
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 46px;
+}
+
+.linkButtom {
+    text-decoration: none;
+}
+
+.learnMoreButtom {
+    margin: 0 35%;
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px
+}
+
+.learnMoreButtom:hover {
+    color: #fce38a;
+    border: 3px solid #fce38a;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: space-around;
+    margin: 6% 3% 0;
+}
+
+.menuTextCenter {
+    display: contents;
+}
+
+.mainMenu {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Montserrat - Regular";
+    font-weight: 400;
+    text-decoration: none;
+    border-top: 3px solid rgb(255, 255, 255);
+    padding: 15px 0 0;
+    width: 12%;
+    opacity: 0.7;
+}
+
+.mainMenu span {
+    font-family: "Montserrat - Bold";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mainMenu:hover {
+    border-top: 3px solid red;
+    opacity: 1;
+}
+
+#scroll {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}

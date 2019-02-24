@@ -1,0 +1,26 @@
+.service-widht {
+    margin: auto 300px;
+    margin-bottom: 51px;
+}
+.services-img {
+    width: 32px;
+    height: 31px;
+    float: left;
+    margin: 0 28px 51px;
+}
+
+.service-info {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.grey-line {
+    width: 1200px;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin-bottom: 51px;
+}
